@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "test-video",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
