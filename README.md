@@ -12,8 +12,7 @@ Ranma 1/2 Latino is an open source mobile application. The application is using 
 
 The main idea is to be able to see and download all the episodes, movies and ovas directly trough your phone.
 
-***This project is intended for learning purposes only and is not affiliated with Google
-in any way***.
+***This project is intended for learning purposes only and is not associated in any way with the people in the images, nor with any organization affiliated with them.***.
 
 ---
 
