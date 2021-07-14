@@ -1,0 +1,17 @@
+<ion-item>
+  <ion-thumbnail slot="start">
+    <img alt="logo" [src]=" chapter.thumbnail "  (click)="playChapter()">
+  </ion-thumbnail>
+  <ion-label class="ion-text-wrap">
+    {{ chapter.name | chapterName}}
+  </ion-label>
+  <ion-button slot="end" fill="clear"  (click)="playChapter()">
+    <ion-icon slot="icon-only" name="play-outline"></ion-icon>
+  </ion-button>
+  <ion-button *ngIf="!existInLocal" slot="end" fill="clear" (click)="confirmDownload()">
+    <ion-icon slot="icon-only" name="download-outline" ></ion-icon>
+  </ion-button>
+  <ion-button *ngIf="existInLocal" slot="end" fill="clear" color="danger" (click)="deleteChapter(position)">
+    <ion-icon slot="icon-only" name="trash-outline"></ion-icon>
+  </ion-button>
+</ion-item>

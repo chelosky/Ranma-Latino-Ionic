@@ -1,0 +1,12 @@
+<app-header-page [title]="'Movies'"></app-header-page>
+
+<ion-content [fullscreen]="true">
+
+    <app-chapter-list 
+    [data]="chapterService.movies"
+    [folder]="data.folder"
+    [confirmText]="data.confirmText"
+    
+    ></app-chapter-list>
+  
+  </ion-content>
